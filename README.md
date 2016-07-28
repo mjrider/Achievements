@@ -93,6 +93,22 @@ The LGTM configuration (which can be found in the `.lgtm` file) is set so that _
  - Agree / agree
  - okay / Okay / OK
 
+## Development
+
+This repository uses [Github Pages](https://help.github.com/articles/using-jekyll-as-a-static-site-generator-with-github-pages/) which in turn uses the Jekyll static site generator.
+
+The quick start guide is basically:
+
+    gem install jekyll
+    git clone git@github.com:DealerDirect/Achievements.git
+    cd Achievements
+    jekyll serve
+
+Browse to [http://localhost:4000/Achievements/](http://localhost:4000/Achievements/) to see the site running. Jekyll will auto-regeneration the content of the site after every (saved) edit. Watch the command-line output for errors and information. 
+
+Please visit the Jekyll manual for more [information about using Github-Pages with Jekyll](http://jekyllrb.com/docs/github-pages/).
+
 ## License
 
 The code in this repository is released under the [GPLv3 license](LICENSE).
+All images are copyrighted by DealerDirect (2016)
